@@ -1,0 +1,7 @@
+*.zip
+/KiCad/Fab/
+fp-info-cache
+# KiCad project local settings
+*.kicad_prl
+# KiCad lock-files
+~*.lck
