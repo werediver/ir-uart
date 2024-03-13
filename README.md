@@ -8,11 +8,15 @@ The adapter can be powered from 3.3 V or 5 V and will operate with the correspon
 
 The board size is just 21x36 mm and provides 8 unconnected PTH (plated through holes) for mounting purposes. It should fit the [Pico (RP2040)](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf) board well.
 
-**NB**: This board hasn't been tested yet. At the moment this is just a design.
-
 | · | · |
 | - | - |
 | ![Assembly top view](images/assembly-top.png) | ![Assembly overview](images/assembly-overview.png) |
 | ![PCB top view](images/pcb-top.png) | ![PCB bottom view](images/pcb-bottom.png) |
 
 ![Schematic](images/schematic.svg)
+
+## Performance
+
+First tests show that the modules work, but the pulse generator frequency is too low with the RC nominals as per revision 1 (replacing the 6.8 kΩ resistor in the timing circuit with a 4.7 kΩ one should put that in order).
+
+Some more photos and/or info may be found at [hackaday.io/project/195022-ir-uart](https://hackaday.io/project/195022-ir-uart).
