@@ -17,6 +17,6 @@ The board size is just 21x36 mm and provides 8 unconnected PTH (plated through h
 
 ## Performance
 
-First tests show that the modules work, but the pulse generator frequency is too low with the RC nominals as per revision 1 (replacing the 6.8 kΩ resistor in the timing circuit with a 4.7 kΩ one should put that in order).
+With minor adjustments after the first tests, the modules work as expected transmitting and receiving 1 kHz test signal. Using the modules with UART hasn't been tested yet.
 
 Some more photos and/or info may be found at [hackaday.io/project/195022-ir-uart](https://hackaday.io/project/195022-ir-uart).
